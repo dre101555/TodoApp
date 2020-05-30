@@ -5,8 +5,8 @@ export default Component.extend({
 
     stuff: service('todo-list'),
     value:'',
-
-    actions:{
+    classNames: ['show-list'],
+    actions:{ 
         remove(item){
             this.stuff.remove(item)
         },
