@@ -1,2 +1,21 @@
 
 @import "ember-bootstrap/bootstrap";
+
+.show-list{
+
+    margin-top:20px;
+    margin-left: 10px;
+ul li{
+    padding:5px;
+    list-style: none;
+    margin-left: -40px;
+}
+
+}
+
+.main-title{
+    .agenda{
+        padding-left: 10px;
+    }
+}
+
