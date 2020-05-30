@@ -1,0 +1,11 @@
+<ul>
+  {{#each stuff.items as |item|}}
+    <li>
+      {{item}}
+      <button {{action "remove" item}}>Remove</button>
+    </li>
+  {{/each}}
+  {{input value=value placeholder="enter here"}}
+  <button {{action "addItem" value}}>add name</button>
+
+</ul>
